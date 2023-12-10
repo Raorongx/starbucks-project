@@ -1,4 +1,5 @@
 from tree import build_tree
+from tree import build_tree, load_data_from_cache
 def display_menu():
     print("Welcome to the Starbucks Store Locator")
     print("1. Search by City")
