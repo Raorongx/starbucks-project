@@ -9,6 +9,8 @@ perform accurate search using cli.py, enjoy :)
 Required packages:
 - requests
 - beautifulsoup4
+- graphviz if you would want to see the data tree
+- webbrowser
 
 ## Usage
 - Run `scraper.py`to follow the prompts and provide an approximate ideal city or zip
