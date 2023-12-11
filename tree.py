@@ -1,4 +1,6 @@
 import json
+from graphviz import Digraph
+
 class TreeNode:
     def __init__(self, name):
         self.name = name
@@ -35,7 +37,21 @@ def build_tree(data):
 
     return root
 
+def visualize_tree(tree):
+    try:
+        dot = Digraph(comment='Starbucks Tree')
+        for city_node in tree.children:
+            dot.node(city_node.name, city_node.name)
+            for store_node in city_node.children:
+                dot.node(store_node.name, store_node.name)
+                dot.edge(city_node.name, store_node.name)
+        dot.render('starbucks_tree.gv', view=True)
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
 
 def load_data_from_cache():
     with open('starbucks_locations.json', 'r') as file:
         return json.load(file)
+
+visualize_tree(build_tree(load_data_from_cache()))

@@ -1,0 +1,52 @@
+// Starbucks Tree
+digraph {
+	Ne [label=Ne]
+	"Starbucks - 78-25 37th Ave, Queens" [label="Starbucks - 78-25 37th Ave, Queens"]
+	Ne -> "Starbucks - 78-25 37th Ave, Queens"
+	"Starbucks - 1500 Broadway, New York" [label="Starbucks - 1500 Broadway, New York"]
+	Ne -> "Starbucks - 1500 Broadway, New York"
+	"Starbucks - 1095 Lexington Ave, New York" [label="Starbucks - 1095 Lexington Ave, New York"]
+	Ne -> "Starbucks - 1095 Lexington Ave, New York"
+	"Starbucks - 157-41 Cross Bay Blvd, Queens" [label="Starbucks - 157-41 Cross Bay Blvd, Queens"]
+	Ne -> "Starbucks - 157-41 Cross Bay Blvd, Queens"
+	"Starbucks - 92-77 Queens Blvd, Queens" [label="Starbucks - 92-77 Queens Blvd, Queens"]
+	Ne -> "Starbucks - 92-77 Queens Blvd, Queens"
+	"Starbucks - 2140 Broadway, New York" [label="Starbucks - 2140 Broadway, New York"]
+	Ne -> "Starbucks - 2140 Broadway, New York"
+	"Starbucks - 61-51 188th St, Queens" [label="Starbucks - 61-51 188th St, Queens"]
+	Ne -> "Starbucks - 61-51 188th St, Queens"
+	"Starbucks - 51-06 Northern Blvd, Queens" [label="Starbucks - 51-06 Northern Blvd, Queens"]
+	Ne -> "Starbucks - 51-06 Northern Blvd, Queens"
+	"Starbucks - 2 W 45th St, New York" [label="Starbucks - 2 W 45th St, New York"]
+	Ne -> "Starbucks - 2 W 45th St, New York"
+	"Starbucks - 750 7th Ave, New York" [label="Starbucks - 750 7th Ave, New York"]
+	Ne -> "Starbucks - 750 7th Ave, New York"
+	"Starbucks - 240 Central Park S, New York" [label="Starbucks - 240 Central Park S, New York"]
+	Ne -> "Starbucks - 240 Central Park S, New York"
+	"East Rutherford, Ne" [label="East Rutherford, Ne"]
+	"Starbucks - 10 NJ-17, East Rutherford" [label="Starbucks - 10 NJ-17, East Rutherford"]
+	"East Rutherford, Ne" -> "Starbucks - 10 NJ-17, East Rutherford"
+	"Edgewater, Ne" [label="Edgewater, Ne"]
+	"Starbucks - 457 River Road Edgewater Commons, Edgewater" [label="Starbucks - 457 River Road Edgewater Commons, Edgewater"]
+	"Edgewater, Ne" -> "Starbucks - 457 River Road Edgewater Commons, Edgewater"
+	"Wayne, Ne" [label="Wayne, Ne"]
+	"Starbucks - 183 Hamburg Tpke, Wayne" [label="Starbucks - 183 Hamburg Tpke, Wayne"]
+	"Wayne, Ne" -> "Starbucks - 183 Hamburg Tpke, Wayne"
+	"Starbucks - 1118 Hamburg Tpke, Wayne" [label="Starbucks - 1118 Hamburg Tpke, Wayne"]
+	"Wayne, Ne" -> "Starbucks - 1118 Hamburg Tpke, Wayne"
+	"Union, Ne" [label="Union, Ne"]
+	"Starbucks - 1011 Morris Ave, Union" [label="Starbucks - 1011 Morris Ave, Union"]
+	"Union, Ne" -> "Starbucks - 1011 Morris Ave, Union"
+	"Rutherford, Ne" [label="Rutherford, Ne"]
+	"Starbucks - 96 Meadow Rd, Rutherford" [label="Starbucks - 96 Meadow Rd, Rutherford"]
+	"Rutherford, Ne" -> "Starbucks - 96 Meadow Rd, Rutherford"
+	"Parsippany, Parsippany-Troy Hills" [label="Parsippany, Parsippany-Troy Hills"]
+	"Starbucks - 1429 US-46, Parsippany" [label="Starbucks - 1429 US-46, Parsippany"]
+	"Parsippany, Parsippany-Troy Hills" -> "Starbucks - 1429 US-46, Parsippany"
+	"Belleville, Ne" [label="Belleville, Ne"]
+	"Starbucks - 11 Franklin Ave, Belleville" [label="Starbucks - 11 Franklin Ave, Belleville"]
+	"Belleville, Ne" -> "Starbucks - 11 Franklin Ave, Belleville"
+	"Garden City, Ne" [label="Garden City, Ne"]
+	"Starbucks - 914 Old Country Rd, Garden City" [label="Starbucks - 914 Old Country Rd, Garden City"]
+	"Garden City, Ne" -> "Starbucks - 914 Old Country Rd, Garden City"
+}
