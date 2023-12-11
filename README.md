@@ -2,6 +2,8 @@
 
 ## Description
 This application helps users locate Starbucks stores in a specified area using a command-line interface.
+Use scraper to help you perform general search for a Starbucks store in the area and
+perform accurate search using cli.py, enjoy :)
 
 ## Installation
 Required packages:
