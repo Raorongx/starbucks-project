@@ -11,7 +11,10 @@ Required packages:
 - beautifulsoup4
 
 ## Usage
-Run `cli.py` to start the application. Follow the on-screen prompts to search for Starbucks stores by city or zip code.
+1.Run `scraper.py`to follow the prompts and provide an approximate ideal city or zip
+you have in mind.
+2.Then, run `cli.py` to start the application. Follow the on-screen prompts to search for Starbucks stores by city or zip code.This would follow the general search you
+just did.
 
 ## Data Source
-Data is scraped from the Starbucks store locator page.
+Data is scraped from the Starbucks store locator page using Google Maps API.
